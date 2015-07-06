@@ -2,7 +2,7 @@
 
 -----
 
-**[Everything you have to know about the author(http://maxham.de/info)**
+**[Everything you have to know about the author](http://maxham.de/info)**
 
 -----
 
