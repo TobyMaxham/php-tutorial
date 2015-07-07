@@ -3,4 +3,5 @@
 ## Table of Contents
 
 * Foreword
-
+* Chapter 1: Install PHP
+	* XAMPP
