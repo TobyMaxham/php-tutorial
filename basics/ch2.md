@@ -11,5 +11,15 @@ Create a **sample.php** file in your directory.
 <?php
 
 echo "Hello World!";
+```
 
+To use it within your *HTML-Code* simple use
+
+
+```php
+<h1>This is the Headline</h1>
+
+<?php
+echo "Hello World!";
+?>
 ```
