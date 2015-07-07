@@ -23,3 +23,20 @@ To use it within your *HTML-Code* simple use
 echo "Hello World!";
 ?>
 ```
+
+
+
+
+Schleifen:
+
+```php
+
+$apostles = ['Simon', 'Andrew', 'James', 'John', 'Philip', 'Bartholomew', 'Thomas', 'Matthew', 'Thaddaeus', 'Judas Iscariot'];
+
+foreach($apostels as $apostel)
+{
+    echo $apostel . '<br />';
+}
+
+```
+
