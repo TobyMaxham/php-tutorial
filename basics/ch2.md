@@ -26,17 +26,57 @@ echo "Hello World!";
 
 
 
+#Schleifen:
 
-Schleifen:
-
+Foreach:
 ```php
 
-$apostles = ['Simon', 'Andrew', 'James', 'John', 'Philip', 'Bartholomew', 'Thomas', 'Matthew', 'Thaddaeus', 'Judas Iscariot'];
+$apostles = ['Simon', 'Andrew', 'James'];
 
-foreach($apostels as $apostel)
+foreach($apostles as $apostle)
 {
-    echo $apostel . '<br />';
+    echo $apostle . '<br />';
 }
+
+```
+
+For:
+```php
+
+$apostles = ['John', 'Philip', 'Bartholomew', 'Thomas'];
+
+for($i=0;$i<count($apostles);$i++)
+{
+  echo $apostles[$i] . '<br />';
+}
+
+```
+
+While:
+```php
+
+$apostles = ['Matthew', 'Thaddaeus', 'Judas Iscariot'];
+
+$i = 0;
+while($i < count($apostles))
+{
+    echo $apostles[$i] . '<br />';
+    $i++;
+}
+
+```
+
+Do-While:
+```php
+
+$apostles = ['James', 'John', 'Philip', 'Bartholomew'];
+
+$i = 0;
+do
+{
+    echo $apostles[$i] . '<br />';
+    $i++;
+} while($i < count($apostles));
 
 ```
 
