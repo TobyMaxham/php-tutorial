@@ -6,6 +6,10 @@ With this kind of tutorial you can learn PHP
 ## Titles
 
 * Chapter One: ["The Basics"](basics/README.md) (in production)
+* Chapter Two: ["Classes"](classes/README.md)
+* Chapter Three: ["Composer"](classes/README.md)
+* Chapter Four: ["Small Framework"](framework/README.md)
+
 
 ## License & Copyright
 
