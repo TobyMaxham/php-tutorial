@@ -1,11 +1,3 @@
-# Command Line Tool
-
-
-Typically you would use PHP to build web-based applications. But you also could use it as a command line tool. 
-
-First we create a new file `command` (without .php):
-
-```php
 #!/usr/bin/env php
 <?php
 
@@ -37,12 +29,3 @@ fwrite(STDOUT, $eOut . trim($name) . '.');
 
 // Exit correctly
 exit(0);
-```
-
-Try out:
-```sh
-php command
-php command --morning
-php command --evening
-php command --night
-```
