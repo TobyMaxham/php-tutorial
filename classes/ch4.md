@@ -1,7 +1,7 @@
 
 
 
-'''php
+’’’php
 <?php
 
 class Foo
@@ -19,4 +19,4 @@ class Foo
 
 }
 
-'''
+’’’
