@@ -13,4 +13,4 @@ With this kind of tutorial you can learn PHP
 
 ## License & Copyright
 
-The materials herein are all (c) 2015 Tobias Maxham.
+The materials herein are all (c) 2015 - 2016 Tobias Maxham.
