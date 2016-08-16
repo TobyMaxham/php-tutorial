@@ -1,5 +1,5 @@
 # PHP Tutorial: Classes
-# Chapter 1: Inheritance 
+# Chapter 5: Inheritance 
 
 
 ## Introduction
@@ -13,6 +13,12 @@
 // base class 
 
 class Vehicle 
+{
+
+}
+
+
+class Car extends Vehicle 
 {
 
 }
