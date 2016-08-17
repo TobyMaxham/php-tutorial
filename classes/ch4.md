@@ -17,6 +17,10 @@ class Foo
       $this->bar = $bar;
    }
 
+   public static function getBar()
+   {
+   }
+
 }
 
 ```
