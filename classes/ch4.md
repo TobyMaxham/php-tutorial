@@ -1,26 +1,36 @@
-
+# PHP Tutorial: Classes
+# Chapter 4: Static Classes
 
 
 ```php
-<?php
+// Foo.php
 
 class Foo
 {
 
-   /**
-   *@var Bar
-   */
-   private $bar;
+    /**
+     * @var Foo $foo
+     */
+    private static $foo;
 
-   function __construct(Bar $bar)
-   {
-      $this->bar = $bar;
-   }
+    function __construct()
+    {
+        self::$foo = new self();
+    }
 
-   public static function getBar()
-   {
-   }
-
+    /**
+     * @return Foo
+     */
+    public static function getFoo()
+    {
+        return self::$foo;
+    }
 }
+```
+
+```php
+// test.php
+
+Foo::getFoo();
 
 ```
