@@ -12,3 +12,4 @@
 * [Chapter 1: Install PHP](ch1.md)
 * [Chapter 2: First steps](ch2.md)
 * [Chapter 3: Functions](ch3.md)
+* [Chapter 4: JSON](ch4.md)
